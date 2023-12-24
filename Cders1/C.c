@@ -35,11 +35,11 @@ int main() {
 
     // Þifreleme
     encrypt(text, key);
-    printf("Þifrelenmiþ  Text: %s\n", text);
+    printf("Sifrelenmis  Text: %s\n", text);
 
     // Þifre çözme
     decrypt(text, key);
-    printf("þifresi çözulmuþ Text: %s\n", text);
+    printf("Sifresi Cozulmus Text: %s\n", text);
 
     return 0;
 }
